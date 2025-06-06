@@ -63,10 +63,10 @@ main {
 
 section {
   justify-items: center;
-  background-color: rgba(252, 196, 215, 0);
+  background-color: #fcc4d700;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(255, 105, 180, 0.2);
+  box-shadow: 0 0 10px #ff69b433;
   margin-bottom: 20px;
 }
 
@@ -130,7 +130,7 @@ p {
 }
 
 footer {
-  background-color: rgba(240, 115, 152, 0);
+  background-color: #f0739800;
   text-align: center;
   padding: 15px;
   width: 100%;
@@ -159,7 +159,7 @@ input {
 }
 
 input::placeholder {
-  color: rgb(22, 22, 22);
+  color: #161616;
 }
 
 select {
@@ -173,7 +173,6 @@ select {
 .images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  ;
   gap: 20px;
 }
 
@@ -183,7 +182,7 @@ select {
   background: #ffcbde20;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px #0000001a;
   transition: transform 0.3s ease;
 }
 
@@ -205,7 +204,7 @@ select {
 }
 
 .content h2 {
-  font-size: 1.2rem;
+  font-size: 20px;
   margin-bottom: 10px;
   color: #333;
 }
@@ -226,7 +225,7 @@ select {
 }
 
 .content button:hover {
-  background-color: rgb(165, 4, 69);
+  background-color: #a50445;
 }
 
 form {
@@ -256,11 +255,11 @@ button {
 }
 
 #reset:hover {
-  background-color: rgb(57, 51, 52);
+  background-color: #393334;
 }
 
 #submit:hover {
-  background-color: rgb(145, 2, 55);
+  background-color: #910237;
 }
 
 #reset {
@@ -274,7 +273,7 @@ button {
 
 .other-contacts a {
 
-  color: rgb(146, 0, 58);
+  color: #92003a;
 }
 
 #other-contacts {
