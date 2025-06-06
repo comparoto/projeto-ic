@@ -1,53 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Galeria - Gerador de Imagens IA</title>
+  <title>Introdução ao projeto</title>
   <link rel="stylesheet" href="estilos/estilo.css">
 </head>
+
 <body>
 
-  <header>
-  <h1>Gerador de Imagens IA</h1>
-  </header>
+  <div class="container">
+    <header>
+      <h1>Projeto - Gerador de Imagens com IA</h1>
+    </header>
 
-  <p>Gerador de Imagens utilizando Inteligência Artificial</p>
-<div class="container">
-  <button id="pagina-inicial">Página Inicial</button>
-  <button id="sobre">Sobre o Projeto</button>
-  <button id="galeria">Galeria de Imagens</button>
-  <button id="contato">Contato</button>
-  <button id="gerar-imagem">Página para Geração de Imagens</button>
-</div>
- 
-<footer>
-  <h3>Gerador de Imagens IA</h3>
-</footer>
+    <nav>
+      <ul>
 
-<script>
+        <li><a href="index.html" class="nav-button">Página Inicial</a></li>
+        <li><a href="sobre.html" class="nav-button">Sobre</a></li>
+        <li><a href="gerar.html" class="nav-button">Gerar Imagem</a></li>
+        <li><a href="galeria.html" class="nav-button">Galeria</a></li>
+        <li><a href="contato.html" class="nav-button">Contato</a></li>
 
-document.getElementById('pagina-inicial').addEventListener('click', function() {
-     
-     window.location.href = "./index.html";
-  
- }); document.getElementById('sobre').addEventListener('click', function() {
-     
-     window.location.href = "./sobre.html";
-  
- }); document.getElementById('galeria').addEventListener('click', function() {
-     
-     window.location.href = "./galeria.html";
-  
- }); document.getElementById('contato').addEventListener('click', function() {
-     
-     window.location.href = "./contato.html";
-  
- }); document.getElementById('gerar-imagem').addEventListener('click', function() {
-     
-     window.location.href = "./gerar.html";
-  
- });
-</script>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <section>
+      <h2 id="introduction">Introdução ao Projeto</h2>
+      <br>
+      <p id="p-index">Projeto Prático da Disciplina de Introdução à Computação
+      <p id="p-index">com o objetivo de desenvolver uma aplicação web para geração </p>
+      <p id="p-index">de imagens via IA como parte prática das aulas de IC</p>
+
+    </section>
+    <br>
+    <section>
+      <h2 id="met">Metodologia</h2>
+      <ul>
+        <li id="li-met">Aulas: Orientações/explicações sobre HTML/CSS/JavaScript</li>
+        <li id="li-met">Orientações extras: Airtable IC</li>
+        <li id="li-met">Prática externa: Realização do projeto fora do horário de aula</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <h3> 2025 - Projeto Gerador de Imagens IA </h3>
+  </footer>
+
 </body>
+
 </html>

@@ -1,52 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sobre</title>
   <link rel="stylesheet" href="estilos/estilo.css">
 </head>
+
 <body>
+  <div class="container">
+    <header>
+      <h1>Sobre o Projeto</h1>
+    </header>
 
-  <header>
-  <h1>Sobre o Projeto</h1>
-  </header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="nav-button">Página Inicial</a></li>
+        <li><a href="sobre.html" class="nav-button">Sobre</a></li>
+        <li><a href="gerar.html" class="nav-button">Gerar Imagem</a></li>
+        <li><a href="galeria.html" class="nav-button">Galeria</a></li>
+        <li><a href="contato.html" class="nav-button">Contato</a></li>
 
-<div class="container">
-  <button id="pagina-inicial">Página Inicial</button>
-  <button id="sobre">Sobre o Projeto</button>
-  <button id="galeria">Galeria de Imagens</button>
-  <button id="contato">Contato</button>
-  <button id="gerar-imagem">Página para Geração de Imagens</button>
-</div>
- 
-<footer>
-  <h3>Gerador de Imagens IA</h3>
-</footer>
+      </ul>
+    </nav>
+  </div>
 
-<script>
+  <main class="main">
+    <article>
 
-document.getElementById('pagina-inicial').addEventListener('click', function() {
-     
-     window.location.href = "./index.html";
-  
- }); document.getElementById('sobre').addEventListener('click', function() {
-     
-     window.location.href = "./sobre.html";
-  
- }); document.getElementById('galeria').addEventListener('click', function() {
-     
-     window.location.href = "./galeria.html";
-  
- }); document.getElementById('contato').addEventListener('click', function() {
-     
-     window.location.href = "./contato.html";
-  
- }); document.getElementById('gerar-imagem').addEventListener('click', function() {
-     
-     window.location.href = "./gerar.html";
-  
- });
-</script>
+      <section>
+        <h2 id="purpose">Propósito do Projeto </h2>
+        <br>
+        <p>Mostrar na prática os aprendizados adquiridos durante as aulas de Introdução à computação</p>
+      </section>
+
+      <section>
+        <h2 id="arq-apli">Arquitetura Aplicada:</h2>
+        <br>
+        <ul>
+          <li id="arquitetura">HTML - para estruturação</li>
+          <li id="arquitetura">CSS - para estilização</li>
+          <li id="arquitetura">JavaScript - para interatividade e funcionalidade dos botões</li>
+        </ul>
+
+      </section>
+
+      <section>
+        <h2 id="estudante">Estudante: </h2>
+        <br>
+        <ul>
+          <li id="about">Juliana Comparoto Baptista</li>
+          <li id="about">1° Período de Análise e Desenvolvimento de Sistemas</li>
+          <li id="about">Responsável por toda estruturação,estilização e interatividade</li>
+        </ul>
+
+      </section>
+    </article>
+
+
+
+    <aside>
+
+      <img src="/assets/html-css-js.png" alt="Imagem ilustrativa" id="image-1" />
+      <img src="/assets/gerador-imagem.png" alt="Imagem ilustrativa" id="image" />
+
+    </aside>
+  </main>
+
+
+  <footer>
+    <h3>2025 - Projeto Gerador de Imagens IA </h3>
+  </footer>
+
 </body>
+
 </html>

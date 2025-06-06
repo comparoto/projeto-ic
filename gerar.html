@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de Imagens</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerar Imagem</title>
+  <link rel="stylesheet" href="estilos/estilo.css">
 </head>
+
 <body>
+  <div class="container">
     <header>
-        <h1>Gerador de imagens</h1>
-        </header>
-      <p>Descreva a imagem que deseja gerar</p>
+      <h1>Gerador de Imagem </h1>
+    </header>
+
+    <nav>
       <ul>
-        <li>Funcionamento</li>
-        <li>Funcionamento</li>
-        <li>Funcionamento</li>
-        <li>Funcionamento</li>
-        <li>Funcionamento</li>
-     
+        <li><a href="index.html" class="nav-button">Página Inicial</a></li>
+        <li><a href="sobre.html" class="nav-button">Sobre</a></li>
+        <li><a href="gerar.html" class="nav-button">Gerar Imagem</a></li>
+        <li><a href="galeria.html" class="nav-button">Galeria</a></li>
+        <li><a href="contato.html" class="nav-button">Contato</a></li>
+
       </ul>
+    </nav>
+  </div>
+
+  <main>
+
+    <section>
+
+      <h2>Descreva a imagem que deseja gerar</h2>
+
+
+      <form id="generate">
+        <label id="label">Descrição da imagem:</label>
+        <br>
+        <input type="description" id="description" placeholder="Descreva a imagem">
+        <br>
+        <button type="submit" id="generate-img">Gerar Imagem</button>
+      </form>
+
+      <p id="mensagem"></p>
+      <p>Acesse a Galeria para visualizar a imagem</p>
+    </section>
+  </main>
+
+  <footer>
+    <h3>2025 - Projeto Gerador de Imagens IA </h3>
+  </footer>
+
+  <script src="scripts/script.js"></script>
 </body>
+
 </html>

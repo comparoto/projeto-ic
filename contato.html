@@ -1,22 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+  <link rel="stylesheet" href="estilos/estilo.css">
 </head>
+
 <body>
+  <div class="container">
     <header>
-        <h1>Entre em Contato</h1>
-        </header>
-      
-        <p>Em breve havera um forms rlx ai</p>
+      <h1>Contatos</h1>
+    </header>
+
+    <nav>
       <ul>
-        <li>contato</li>
-        <li>contato</li>
-        <li>contato</li>
-        <li>contato</li>
-        <li>contato</li>
+
+        <li><a href="index.html" class="nav-button">Página Inicial</a></li>
+        <li><a href="sobre.html" class="nav-button">Sobre</a></li>
+        <li><a href="gerar.html" class="nav-button">Gerar Imagem</a></li>
+        <li><a href="galeria.html" class="nav-button">Galeria</a></li>
+        <li><a href="contato.html" class="nav-button">Contato</a></li>
+
       </ul>
+    </nav>
+  </div>
+
+  <main>
+
+    <section>
+
+      <h2>Dúvidas ou sugestões? </h2>
+      <p id="p-contact">Preencha o formulário abaixo! </p>
+      <br>
+
+
+      <form id="form-contact">
+        <div class="name">
+          <label for="name">Nome completo:</label>
+          <input type="text" id="name" placeholder="Insira seu nome">
+        </div>
+
+        <div class="email">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" placeholder="Insira seu e-mail">
+        </div>
+
+        <div class="phone">
+          <label for="phone-number">Telefone:</label>
+          <input type="tel" id="phone-number" placeholder="Insira seu telefone">
+        </div>
+
+        <div class="subject">
+          <label for="subject">Assunto:</label>
+          <select id="subject" required>
+
+            <option value="">Do que se trata?</option>
+            <option value="question">Dúvida</option>
+            <option value="sugestion">Sugestão</option>
+            <option value="problem">Reportar problema</option>
+            <option value="other">Outro</option>
+
+          </select>
+        </div>
+
+        <div class="message">
+          <label for="message">Por favor escreva sobre o assunto selecionado:</label>
+          <input type="text" id="text" placeholder="Escreva aqui">
+        </div>
+
+        <button type="submit" id="submit">Enviar</button>
+        <button type="reset" id="reset">Limpar formulário</button>
+      </form>
+
+      <p id="mensagem-status"></p>
+    </section>
+
+    <section class="contact">
+      <h2>Outras formas de contato</h2>
+
+      <div class="other-contacts">
+        <p id="other-contacts">E-mail: <a href="mailto:jcb5@cesar.school">jcb5@cesar.school</a></p>
+        <p id="other-contacts">Telefone: <a href="tel:+5581982962848">(81) 98296-2848</a></p>
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <h3> 2025 - Projeto Gerador de Imagens IA </h3>
+  </footer>
+  <script src="scripts/script2.js"></script>
 </body>
+
 </html>
