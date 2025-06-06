@@ -75,7 +75,7 @@ section {
 }
 
 #arq-apli {
-  color: #9d013d;
+  color: #cc7093;
 }
 
 #estudante {
@@ -150,7 +150,7 @@ h3 {
 }
 
 input {
-  background-color: #623c3c63;
+  background-color: #ffcfe463;
   border: none;
   border-radius: 10px;
   padding: 10px;
@@ -163,7 +163,7 @@ input::placeholder {
 }
 
 select {
-  background-color: #623c3c63;
+  background-color: #ffcfe463;
   border: none;
   border-radius: 10px;
   padding: 10px;
@@ -230,7 +230,7 @@ select {
 
 form {
   border-radius: 20px;
-  background-color: #ff408681;
+  background-color: #ff40865e;
   padding: 20px;
 }
 
